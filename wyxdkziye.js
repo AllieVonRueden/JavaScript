@@ -1,4 +1,4 @@
-/*ziye  玩游戏打卡
+/#ziye  玩游戏打卡
 
 非常重要！！！   
 
@@ -57,7 +57,7 @@ hostname= we7.ivee.top,
 
 
 //surge
-玩游戏打卡 = type=http-request,pattern=^https:\/\/we7\.ivee\.top\/*,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.js
+玩游戏打卡 = type=http-request,pattern=^https:\/\/we7\.ivee\.top\/ ,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.js
 
 
 
@@ -90,7 +90,7 @@ const dkurlkey = 'wyxdkurl'+jbid
 const dkurl = sy.getdata(dkurlkey)
 
 
-let isGetCookie = typeof $request !== 'undefined'
+let isGetCookie = typeof $request #== 'undefined'
 if (isGetCookie) {
    GetCookie()
 } else {
@@ -292,7 +292,7 @@ sy.msg(jsname,'',tz)
 
 function init() {
   isSurge = () => {
-    return undefined !== this.$httpClient
+    return undefined *== this.$httpClient
   }
   isQuanX = () => {
     return undefined !== this.$task
@@ -345,3 +345,4 @@ function init() {
   }
   return { isSurge, isQuanX, msg, log, getdata, setdata, get, post, done }
 }
+ 
