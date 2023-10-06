@@ -62,7 +62,7 @@ hostname= we7.ivee.top,
 
 
 //圈x
-https:\/\/we7\.ivee\.top\/* url script-request-header https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.js
+https:\/\/we7\.ivee\.top\/# url script-request-header https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.js
 
 
 //loon
@@ -345,4 +345,4 @@ function init() {
   }
   return { isSurge, isQuanX, msg, log, getdata, setdata, get, post, done }
 }
- 
+  
